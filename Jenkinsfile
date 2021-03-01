@@ -18,12 +18,12 @@ node {
       
      //sh 'bash -l -c ". $HOME/.nvm/nvm.sh ; nvm use || nvm install && nvm use"' 
      sh 'bash -l -c ". $HOME/.nvm/nvm.sh ; nvm use v12.21.0 ; node --version ; npm --version"' 
-     sh 'bash -l -c ". $HOME/.nvm/nvm.sh ; nvm use v12.21.0 ; npm install'
+     sh 'bash -l -c ". $HOME/.nvm/nvm.sh ; nvm use v12.21.0 ; npm install"'
      sh 'ls -lha'
      //nodejs(nodeJSInstallationName: 'nodejs') {
      //  sh 'npm install --only=dev'
      //}
-     sh 'bash -l -c ". $HOME/.nvm/nvm.sh ; nvm use v12.21.0 ; npm test'
+     sh 'bash -l -c ". $HOME/.nvm/nvm.sh ; nvm use v12.21.0 ; npm test"'
    }
    
   /*
