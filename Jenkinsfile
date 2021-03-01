@@ -14,7 +14,7 @@ node {
          [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"
      """
      
-     sh 'npm install --only=dev'
+     sh 'npm install'
      sh 'ls -lha'
      //nodejs(nodeJSInstallationName: 'nodejs') {
      //  sh 'npm install --only=dev'
